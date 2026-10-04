@@ -1,6 +1,6 @@
 import csv
 import os
-File_NAME = r"C:\Users\ayush\OneDrive\Desktop\gitdemo\localRepo\expenses.csv"
+File_NAME = r"localRepo\expenses.csv"
 #---------------- ADD EXPENSE ----------------
 def add_expense():
     name = input("Enter expense name: ")
