@@ -1,6 +1,6 @@
 import csv
 import os
-File_NAME = "expenses.csv"
+File_NAME =  os.path.join(os.path.localrepo(__file__), "expenses.csv")
 #---------------- ADD EXPENSE ----------------
 def add_expense():
     name = input("Enter expense name: ")
